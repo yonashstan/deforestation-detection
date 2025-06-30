@@ -1,0 +1,8 @@
+/.DS_Store
+/Latex_Thesis_Paper
+/deforestation_segmentation copy
+/deforestation_segmentation.zip*.pth
+*.pt
+models/*/best*
+models/*/latest*
+models/*/final*
