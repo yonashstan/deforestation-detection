@@ -1,4 +1,4 @@
-# Forest Loss Detection using MCLC
+# Deforestation Detection 
 
 A deep learning project for detecting and segmenting deforestation areas in satellite/drone imagery using ML segmentation.
 
