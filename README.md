@@ -1,4 +1,4 @@
-# Forest Loss Detection using MCLC
+# Deforestation Detection 
 
 A deep learning project for detecting and segmenting deforestation areas in satellite/drone imagery using ML segmentation.
 
@@ -17,14 +17,14 @@ Below you can find a few example screens captured from the Streamlit interface t
 
 | Upload & Segmentation | Charts & Area Analysis | Report & Downloads |
 | --- | --- | --- |
-| ![Segmentation UI](../assets/deforestation_segmentation.png) | ![Charts & Analysis](../assets/charts_analysis.png) | ![Report & Downloads](../assets/report_downloads.png) |
+| ![Segmentation UI](assets/deforestration_segmentation.png) | ![Charts & Analysis](assets/charts_analysis.png) | ![Report & Downloads](assets/report_downloads.png) |
 
 ## Model Architecture
 
 The following diagram illustrates the high-level structure of the segmentation network (UNet++ with an EfficientNet-B2 encoder and attention blocks):
 
 <p align="center">
-  <img src="../assets/architecture.png" alt="Model architecture" width="600"/>
+  <img src="assets/arhitecture.png" alt="Model architecture" width="800"/>
 </p>
 
 > Place the referenced images inside an `assets/` folder in the repository root so that the links resolve correctly on GitHub.
