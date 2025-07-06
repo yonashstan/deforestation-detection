@@ -4,27 +4,41 @@ A deep learning project for detecting and segmenting deforestation areas in sate
 
 ## Features
 
-- Multi-level Contrastive Learning (MCLC) architecture
 - EfficientNet backbone with attention mechanisms
 - Segmentation head for deforestation area detection
 - Interactive web application for demonstrations
 - Comprehensive evaluation metrics
+- Experiment with Multi-level Contrastive Learning (MCLC) architecture
 - Visualization tools for predictions
 
 ## Web Application Screenshots
 
 Below you can find a few example screens captured from the Streamlit interface that accompanies the project:
 
-| Upload & Segmentation | Charts & Area Analysis | Report & Downloads |
-| --- | --- | --- |
-| ![Segmentation UI](assets/deforestration_segmentation.png) | ![Charts & Analysis](assets/charts_analysis.png) | ![Report & Downloads](assets/report_downloads.png) |
+<div align="center">
+  <div style="display: inline-block; width: 30%; margin-right: 2%; text-align: center;">
+    <img src="deforestation_segmentation/assets/deforestration_segmentation.png" alt="Segmentation UI" width="100%"/>
+    <p><strong>Segmentation Interface</strong><br/>
+    Upload satellite images and get real-time deforestation detection results with highlighted affected areas.</p>
+  </div>
+  <div style="display: inline-block; width: 30%; margin-right: 2%; text-align: center;">
+    <img src="deforestation_segmentation/assets/charts_analysis.png" alt="Charts & Analysis" width="100%"/>
+    <p><strong>Analysis Dashboard</strong><br/>
+    Interactive charts showing deforestation statistics, area measurements, and temporal analysis.</p>
+  </div>
+  <div style="display: inline-block; width: 30%; text-align: center;">
+    <img src="deforestation_segmentation/assets/report_downloads.png" alt="Report & Downloads" width="100%"/>
+    <p><strong>Report Generation</strong><br/>
+    Export detailed reports with statistics, maps, and recommendations for environmental monitoring.</p>
+  </div>
+</div>
 
 ## Model Architecture
 
 The following diagram illustrates the high-level structure of the segmentation network (UNet++ with an EfficientNet-B2 encoder and attention blocks):
 
 <p align="center">
-  <img src="assets/arhitecture.png" alt="Model architecture" width="800"/>
+  <img src="deforestation_segmentation/assets/arhitecture.png" alt="Model architecture" width="800"/>
 </p>
 
 > Place the referenced images inside an `assets/` folder in the repository root so that the links resolve correctly on GitHub.
